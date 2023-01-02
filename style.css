@@ -3063,4 +3063,13 @@ select.mobile-device {
     .gallery-single {
         min-width: fit-content;
     }
+
+    /* To prevent misalignment of certificications in 800px or tab size screens */
+    .certificate-info{
+        margin: 0px 0px 40px 15px;
+    }
+            
+    .certificate-box{
+        overflow:hidden;
+    }
 }
